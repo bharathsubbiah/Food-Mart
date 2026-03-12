@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Food Mart</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <div class="top-header">
+            <div class="container d-flex align-items-center justify-content-between">
+
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="foodmart.html">
+                        <img src="assets/imgi_1_logo.png" alt="logo image" width="241" height="51"
+                            class="d-inline-block align-text-top">
+                    </a>
+                </div>
+
+                <div class="input-group search-box ">
+                    <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                        All Categories
+                    </button>
+
+                    <input type="text" class="form-control" placeholder="Search for more than 20,000 products">
+
+                    <button class="btn btn-light">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </div>
+
+                <div class="d-flex align-items-center gap-4">
+
+                    <div class="phone">
+                        For Support?<br>
+                        <strong>+980-34984089</strong>
+                    </div>
+                    <a href="login.html" class="login-icon">
+                        <i class="fa-regular fa-circle-user"></i> </a>
+
+                    <i class="fa-regular fa-heart"></i>
+
+                    <div>
+                        <a href="cart.html" class="cart-icon">
+                            <i class="fa-solid fa-cart-arrow-down"></i> </a>
+                        <span class="cart-price">₹230.00</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <nav class="navbar navbar-expand-lg bg-white border-top border-bottom ">
+            <div class="container">
+
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div>
+                    <button class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown">
+                        Groceries
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="menu">
+
+                    <ul class="navbar-nav me-auto gap-4">
+
+
+
+                        <li class="nav-item">
+                            <a class="nav-link">Women</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Men</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Kids</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Accessories</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                Pages
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Brand</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Sale</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <body>
+        <section class="cart-page-header">
+            <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+                <h1>Cart</h1>
+
+                <p class="text-muted m-0">
+                    <a href="foodmart.html" class="text-decoration-none">Home </a>/ Cart
+                </p>
+
+            </div>
+        </section>
+
+
+
+        <section class="py-5">
+            <div class="container">
+
+                <div class="row g-5">
+
+
+                    <div class="col-lg-8">
+
+                        <div class="table-responsive">
+
+                            <table class="table align-middle">
+
+                                <thead>
+                                    <tr class="text-muted">
+                                        <th>PRODUCT</th>
+                                        <th>QUANTITY</th>
+                                        <th>SUBTOTAL</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+
+                                    <tr>
+
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <img src="assets/imgi_20_thumb-raspberries.png"
+                                                    class="cart-product-img">
+
+                                                <h6 class="mb-0">Rasberries</h6>
+
+                                            </div>
+                                        </td>
+
+                                        <td>
+
+                                            <div class="cart-qty-box">
+
+                                                <button>-</button>
+
+                                                <input type="text" value="1">
+
+                                                <button>+</button>
+
+                                            </div>
+
+                                        </td>
+
+                                        <td>₹150.00</td>
+
+                                        <td>
+                                            <i class="fa fa-trash text-muted"></i>
+                                        </td>
+
+                                    </tr>
+
+
+
+                                    <tr>
+
+                                        <td>
+                                            <div class="d-flex align-items-center gap-3">
+
+                                                <img src="assets/imgi_19_thumb-orange-juice.png"
+                                                    class="cart-product-img">
+
+                                                <h6 class="mb-0">Orange Juice</h6>
+
+                                            </div>
+                                        </td>
+
+                                        <td>
+
+                                            <div class="cart-qty-box">
+
+                                                <button>-</button>
+
+                                                <input type="text" value="1">
+
+                                                <button>+</button>
+
+                                            </div>
+
+                                        </td>
+
+                                        <td>₹80.00</td>
+
+                                        <td>
+                                            <i class="fa fa-trash text-muted"></i>
+                                        </td>
+
+                                    </tr>
+
+                                </tbody>
+
+                            </table>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="col-lg-4">
+
+                        <div class="cart-summary">
+
+                            <h4 class="mb-4">Cart Total</h4>
+
+                            <div class="d-flex justify-content-between mb-3">
+                                <span class="text-muted">SUBTOTAL</span>
+                                <span>₹230.00</span>
+                            </div>
+
+                            <hr>
+
+                            <div class="d-flex justify-content-between mb-4">
+                                <strong>TOTAL</strong>
+                                <strong>₹230.00</strong>
+                            </div>
+
+
+                            <div class="d-grid gap-3">
+
+                                <button class="btn btn-dark">
+                                    UPDATE CART
+                                </button>
+
+                                <button class="btn btn-dark">
+                                    CONTINUE SHOPPING
+                                </button>
+
+                                <button class="btn btn-warning">
+                                    PROCEED TO CHECKOUT
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+
+    </body>
+
+</html>
